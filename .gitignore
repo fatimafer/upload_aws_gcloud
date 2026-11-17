@@ -2,9 +2,13 @@
 /conversion_dat_parquet/procesados/
 /conversion_dat_parquet/parquet/
 /conversion_dat_parquet/fallos/
+/conversion_dat_parquet/CLOUD_Coral_Clouds_Hotel_Reservations.csv
 /conversion_dat_csv/procesados/
 /conversion_dat_csv/csv/
 /conversion_dat_csv/fallos/
+/conversion_dat_csv/CLOUD_Coral_Clouds_Guests.csv
+conversion_dat_csv/CLOUD_Coral_Clouds_Hotel_Reservations.csv
+/.vscode/
 /.aws/
 /.aws/config
 /.aws/credentials
@@ -15,3 +19,4 @@ win_create_launcher.bat
 win_delete_launcher.bat
 /old_scripts_w_arguments/
 /log/
+/__pycache__/
