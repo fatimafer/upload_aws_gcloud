@@ -1,0 +1,1 @@
+DROP SCHEMA IF EXISTS coral_cloud_demo CASCADE;

@@ -1,0 +1,32 @@
+{
+    "TARGETS": {
+            "s3": {
+                    "bucket": "coral-cloud-demo-reservations" ,
+                    "segment": "Vip-Next-season_VIP-Customers",
+                    "output_formats": {
+                                        "CSV": {
+                                                  "origin_dir": "conversion_dat_csv",
+                                                  "record_type": "Standard"
+                                        },
+                                        "PARQUET": {
+                                                  "origin_dir": "conversion_dat_parquet",
+                                                  "record_type": "Suite"
+                                        }
+                    }
+                },
+            "GCS": {
+                              "bucket": "coral-cloud-demo" ,
+                              "segment": "INPUT_Data_360_segments",
+                              "output_formats": {
+                                                  "CSV": {
+                                                            "origin_dir": "conversion_dat_csv",
+                                                            "record_type": "Guests"
+                                                          },
+                                                  "PARQUET": {
+                                                            "origin_dir": "conversion_dat_parquet",
+                                                            "record_type": "Deluxe"
+                                                  }
+                              }
+            }
+    }
+}
