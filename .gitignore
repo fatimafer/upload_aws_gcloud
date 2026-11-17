@@ -5,6 +5,12 @@
 /conversion_dat_csv/procesados/
 /conversion_dat_csv/csv/
 /conversion_dat_csv/fallos/
+/.aws/
+/.aws/config
+/.aws/credentials
+/.aws/redshift.json
+/.gcloud/
+/.gcloud/adc.json
 win_create_launcher.bat
 win_delete_launcher.bat
 /old_scripts_w_arguments/
