@@ -2,8 +2,8 @@
 
 
 El propósito de este Repositorio es subir datos a Google Cloud y AWS que luego serán utilizados en los siguientes repositorios de DataCloud:
-https://github.com/fatimafer/DC_connections.git
-https://github.com/fatimafer/DC_objects.git
+* https://github.com/fatimafer/CC_connections.git
+* https://github.com/fatimafer/CC_Objects.git
 
 
 
